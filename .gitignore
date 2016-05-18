@@ -15,3 +15,5 @@
 /log/*
 !/log/.keep
 /tmp
+#ignore all nitrous and files and files
+.nitrous/

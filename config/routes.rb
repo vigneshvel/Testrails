@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
-  get 'home/page'
   root 'home#page'
+  get '/page', to: 'home#page'
+
+  resources:books
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
